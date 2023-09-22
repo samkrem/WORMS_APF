@@ -6,7 +6,10 @@
 * Developed attractive and repulsive algorithms for a volume representing a WORM.
 * Coded a simulation environment representing a WORM on the moon for the APF in MATLAB
 * Co-authoring a paper called "Energy Efficient Gait Adaptation for Legged Multi-Agent Robotic Systems Using Artificial Potential Fields"
-* Assembled and disassembled WORMS from its pallet.
+
+<image width="50%" src="https://github.com/samkrem/WORMS_APF/edit/main/README.md#:~:text=APF_Algorithms.png-,Env_Img_1,-.png"></image>
+<image width="50%" src="https://github.com/samkrem/WORMS_APF/edit/main/README.md#:~:text=APF_Algorithms.png-,Env_Img_2,-.png"></image>
+
 ## File Structure of APF_3D: ##
 * EnvInfAvg.m is the program to run the entire planner and references other files in the APF_3D directory
 * create_rock.m creates rock like objects
@@ -18,9 +21,7 @@
 * The inner loop traverses every obstacle to calculate the attractive and repulsive forces
 * After, artifical forces,
 ## Algorithms and Calculations used for APF(in EnvInfAvg.m and other files): ##
-<image width="50%" src="https://github.com/samkrem/ACL_UWB_SLAM/blob/main/images/Metronome_Transformation_Diagram.png"></image>
-
-
+<image width="50%" src="https://github.com/samkrem/WORMS_APF/edit/main/README.md#:~:text=APF_Algorithms-,.,-png"></image>
 ## Future plans: ##
 * Increase effeciency and consistency of APF even more
 * Utilize calculated robot volume when it is travelling between two obstacles to avoid robot getting trapped.
