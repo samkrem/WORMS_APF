@@ -22,7 +22,7 @@
 * The inner loop traverses every obstacle to calculate the attractive and repulsive forces
 * After, artifical forces,
 ## Algorithms, variables and calculations used for APF(in EnvInfAvg.m and other files): ##
-<image width="50%" src="https://github.com/samkrem/WORMS_APF/blob/main/Images/APF_Algorithms.png"></image>
+<image width="100%" src="https://github.com/samkrem/WORMS_APF/blob/main/Images/APF_Algorithms.png"></image>
 * F_avg: Average of the forces of multiple points that make up a volume
 * F: The sum of the repulsive and attractive forcces
 * F_att: The attractive force so its the distance between the current position and goal times some constant
