@@ -14,14 +14,25 @@
 * EnvInfAvg.m is the program to run the entire planner and references other files in the APF_3D directory
 * create_rock.m creates rock like objects
 * potential_attraction.m is the function for the attractive force algorithm
+* dist_factor: function for distance
 * diff_distance_factor.m is the function for the gradient of distance
 ## Structure of EnvInfAvg.m: ##
 * The most outer loop represents every iteration of a movement
 * The middle loop loops throught every point defining a WORMS volume
 * The inner loop traverses every obstacle to calculate the attractive and repulsive forces
 * After, artifical forces,
-## Algorithms and Calculations used for APF(in EnvInfAvg.m and other files): ##
+## Algorithms, variables and calculations used for APF(in EnvInfAvg.m and other files): ##
 <image width="50%" src="https://github.com/samkrem/WORMS_APF/blob/main/Images/APF_Algorithms.png"></image>
+F_avg: Average of the forces of multiple points that make up a volume
+F: The sum of the repulsive and attractive forcces
+F_att: The attractive force so its the distance between the current position and goal times some constant
+Frep: The sum of two individual repulsive forces
+F_rep1: Based on a repulsive constant, distance between the goal and the current point, and zeta which is a constant based on the size of an obstacle, 
+F_rep2: Similar to F_rep1 but it also factors in the gradient of the distance for accuracy measurements and the constant n
+dist_factor: formula based on distance 
+diff_distance_factor: Gradient of dist_factor
+rou: the xy plane distance between the point and obstacle
+d_rou: a unit vector pointing from the current point to the obstacle
 ## Future plans: ##
 * Increase effeciency and consistency of APF even more
 * Utilize calculated robot volume when it is travelling between two obstacles to avoid robot getting trapped.
