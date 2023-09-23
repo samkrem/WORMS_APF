@@ -1,6 +1,9 @@
 # Walking Oligimeric Robotic Mobility System (WORMS) Artificial Potential Field Planner
 ## Descriptions: ##
-* Developeed simulation space representing a rocky lunar surface. Under the AeroAstro Space Resources Workshop, the research proposal for the Walking, Oligomeric, Robotic Mobility System (WORMS) was selected as a finalist by NASA’s 2022 BIG Idea Challenge and received $175K in funding for the project. WORMS is a modular architecture where the robotic mobility capability emerges from the swarm-like integration of a small (“oligomeric”) set of nearly-identical, articulating “worms.”. The WORMS APF uses inverse kinematics, attractive forces, and repulsive forces to guide a volume (in this case a robotic arm) from its start state to a target state.
+*  Under the AeroAstro Space Resources Workshop, the research proposal for the Walking, Oligomeric, Robotic Mobility System (WORMS) was selected as a finalist by NASA’s 2022 BIG Idea Challenge and received $175K in funding for the project. WORMS is a modular architecture where the robotic mobility capability emerges from the swarm-like integration of a small (“oligomeric”) set of nearly-identical, articulating “worms.”. The WORMS APF uses inverse kinematics, attractive forces, and repulsive forces to guide any volume from its start state to a target state.
+## Main Objectives:
+* Guide a WORM, or robotic arm to its target state in an energy efficient manner
+* Develop a realistic lunar simulation space 
 ## Contributions: $$
 * Coded an Artificial Potential Field Planner (APF) in MATLAB that utilizes inverse kinematics, attractive forces, and repulsive forces to guide a robot through obstacles to its target.
 * Developed attractive and repulsive algorithms for a volume representing a WORM.
