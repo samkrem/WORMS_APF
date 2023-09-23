@@ -4,7 +4,7 @@
 ## Main Objectives:
 * Guide a WORM, or robotic arm to its target state in an energy efficient manner
 * Develop a realistic lunar simulation space 
-## Contributions: $$
+## Contributions: ##
 * Coded an Artificial Potential Field Planner (APF) in MATLAB that utilizes inverse kinematics, attractive forces, and repulsive forces to guide a robot through obstacles to its target.
 * Developed attractive and repulsive algorithms for a volume representing a WORM.
 * Coded a simulation environment representing a WORM on the moon for the APF in MATLAB
