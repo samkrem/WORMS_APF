@@ -23,7 +23,7 @@
 * The most outer loop represents every iteration of a movement
 * The middle loop loops throught every point defining a WORMS volume
 * The inner loop traverses every obstacle to calculate the attractive and repulsive forces
-* After, artifical forces,
+
 ## Algorithms, variables and calculations used for APF(in EnvInfAvg.m and other files): ##
 <image width="100%" src="https://github.com/samkrem/WORMS_APF/blob/main/Images/APF_Algorithms.png"></image>
 * F_avg: Average of the forces of multiple points that make up a volume
